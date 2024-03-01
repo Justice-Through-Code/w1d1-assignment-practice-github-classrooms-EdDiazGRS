@@ -17,7 +17,7 @@ def is_christmas(date):
     return date.month == 12 and date.day == 25
 
 def is_easter(date):
-    return date == calc_easter_sunday(date.year)
+    return date == calc_easter_sunday(date.year)  
 
 def is_sunday(date):
     return date.weekday() == 6  
